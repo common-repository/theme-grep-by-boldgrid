@@ -1,0 +1,87 @@
+/* The grep results header, containing the filename / etc. */
+.bgthgr-heading {
+	background: #ddd;
+    font-family: monospace;
+    font-size: .9em;
+    padding: 10px 5px;
+}
+
+/* The toggle arrows. */
+.bgthgr-heading .dashicons-arrow-down-alt2,
+.bgthgr-heading .dashicons-arrow-up-alt2 {
+	cursor: pointer;
+}
+
+.tools_page_boldgrid-theme-grep h2 {
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 5px;
+}
+
+/* Dashicons used in headings. */
+h2 a .dashicons,
+.bgthgr-heading a .dashicons {
+	text-decoration: none;
+}
+
+.bgthgr-file-container {
+	border: 1px solid #bbb;
+	margin: 15px 0;
+}
+
+/* The div containing the code. */
+.bgthgr-code {
+	background: #fff;
+    font-family: monospace;
+    padding: 5px;
+    white-space: pre-wrap;
+}
+
+.bgthgr-code-highlight {
+	background: #ffcccc;
+    color: #cc0000;
+    font-weight: bold;
+}
+
+/* A notice when stuck atop the page. */
+.bgthgr-sticky-notice .notice {
+	box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.4);
+	left: 161px;
+	right: 0px;
+	width: auto !important;
+}
+
+/* The container of the shell command. */
+.bgthgr-cmd-container {
+	border: 1px solid #ddd;
+	margin-bottom: 7px;
+}
+
+.bgthgr-cmd-container .bgthgr-cmd-heading {
+	background: #ddd;
+	padding: 5px;
+	margin: 0;
+}
+
+.bgthgr-section-container,
+.bgthgr-item-container,
+h2 {
+	margin-top: 50px;
+}
+
+.bgthgr-pill {
+	background: #32373c;
+    color: #fff;
+    border-radius: 16px;
+    padding: 0 9px 2px 9px;
+}
+
+.bgthgr-item-heading {
+	font-size: .85em;
+	margin-top: 0;
+}
+
+.bgthgr-section-container .bgthgr-rule-container {
+	font-size: 1.2em;
+	color: #000;
+	margin: 15px 0;
+}
